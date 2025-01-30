@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="./index.html" class="logo-container">
+            <svg class="logo"><use href="./img/sprite.svg#icon-rocket"></use></svg>
+            <p class="logo-text">CONST</p>
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">Blog</li>
+            <li class="nav-item">Contacts</li>
+            <li class="nav-item">FAQ</li>
+            <li class="nav-item">About us</li>
+            <li class="nav-item">Search</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- #region HERO -->
+      <section class="hero">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="banner">
+                <span class="banner-sub">WELCOME TO PRO CONSULTANCY</span>
+                <h1 class="banner-title">
+                  CONSULTING FOR <br />
+                  EVERY BUSINESS
+                </h1>
+                <div class="banner-btn">
+                  <a href="">DISCOVER MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="banner">
+                <span class="banner-sub">WELCOMING IN PRO CONSULTANCY!</span>
+                <h2 class="banner-title">
+                  CONSULTING FOR <br />
+                  VARIOUS BUSINESS
+                </h2>
+                <div class="banner-btn">
+                  <a href="">DISCOVER MORE</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="banner">
+                <span class="banner-sub">GREETINGS FROM PRO CONSULTANCY!</span>
+                <h2 class="banner-title">
+                  CONSULTANCY FOR <br />
+                  ALL TYPE OF BUSINESS
+                </h2>
+                <div class="banner-btn">
+                  <a href="">DISCOVER MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+      </section>
+      <!-- #endregion HERO -->
+
+      <!-- #region BENEFITS -->
+      <section class="benefits-section">
+        <div class="container">
+          <div class="benefits">
+            <h2 class="benefits-title">REAL-WORLD EXPERIENCE</h2>
+            <p class="benefits-sub-title">
+              The best business consulting firm you can count on!
+            </p>
+            <ul class="benefits-list">
+              <li class="benefits-list-item">
+                <h4>
+                  WEALTH <br />
+                  MANAGEMENT
+                </h4>
+                <span class="benefits-read-more"
+                  ><p>Read more</p>
+                  <svg width="80" class="benefits-icon">
+                    <use href="./img/sprite.svg#icon-make-group"></use></svg
+                ></span>
+              </li>
+              <li class="benefits-list-item">
+                <h4>
+                  AUDIT <br />
+                  MARKETING
+                </h4>
+                <span class="benefits-read-more"
+                  ><p>Read more</p>
+                  <svg width="80" class="benefits-icon">
+                    <use
+                      href="./img/sprite.svg#icon-insert-template"
+                    ></use></svg
+                ></span>
+              </li>
+              <li class="benefits-list-item">
+                <h4>
+                  FINANCE <br />
+                  CONSULTING
+                </h4>
+                <span class="benefits-read-more"
+                  ><p>Read more</p>
+                  <svg width="80" class="benefits-icon">
+                    <use
+                      href="./img/sprite.svg#icon-indent-increase"
+                    ></use></svg
+                ></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- #endregion BENEFITS -->
+
+      <!-- #region CONTACT US -->
+
+      <section class="contact-us-section">
+        <div class="container">
+          <div class="contact-us">
+            <form id="contact-form" action="thankyou.html" class="form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+              <label for="email">E-Mail:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="phone">Phone number:</label>
+              <input type="tel" id="phone" name="phone" required />
+              <button type="submit">Submit</button>
+            </form>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38471.21227942189!2d-3.0521566364277977!3d53.39367560363336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b274d9685295f%3A0xed10d97442838c4b!2sSpotless%20Water%20Wirral!5e1!3m2!1sen!2sus!4v1738234939397!5m2!1sen!2sus"
+              width="600"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion CONTACT US -->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <a href="./index.html" class="logo-container"> <span>
+            <svg class="logo"><use href="./img/sprite.svg#icon-rocket"></use></svg>
+            <p class="logo-text">CONST</p>
+          </span></a>
+          <div class="links-container">
+            <a href="privacy_policy.html" class="footer-link">Privacy Policy</a>
+            <a href="terms_of_use.html" class="footer-link">Terms of Use</a>
+            <span class="phone-number"
+            ><svg class="tel-icon">
+              <use href="./img/sprite.svg#icon-phone"></use>
+            </svg>
+            +440 (XX) XXX-XXXX</span
+          >
+        </div>
+      </div>
+      <div class="rights-container">
+        <p>&copy; 2025 All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- Cookie Popup -->
+    <div id="cookie-popup" class="cookie-popup">
+      <p>
+        We use cookies to improve your experience. By using our site, you agree
+        to our cookie policy.
+      </p>
+      <button id="accept-cookies">Accept</button>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
+  </body>
+</html>

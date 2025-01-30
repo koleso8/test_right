@@ -1,0 +1,32 @@
+@import url('./reset.css');
+@import url('./container.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./benefits.css');
+@import url('./contact-us.css');
+@import url('./footer.css');
+
+#cookie-popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  p {
+    margin-bottom: 40px;
+  }
+  button {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    &:hover {
+      color: #333;
+      background-color: #fff;
+    }
+  }
+}

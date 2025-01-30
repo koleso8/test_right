@@ -1,0 +1,50 @@
+.contact-us-section {
+  padding: 60px 0;
+  display: flex;
+}
+.contact-us {
+  display: flex;
+  gap: 20px;
+}
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  padding: 40px;
+  background-color: beige;
+
+  label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+  }
+  input {
+    padding: 10px 8px;
+    outline: 1px solid #333;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #fff;
+    &:focus {
+      outline: 2px solid #333;
+    }
+  }
+  button {
+    margin-top: auto;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 400ms linear;
+    padding: 20px;
+    border-radius: 8px;
+    &:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  }
+}
+.map {
+  flex: 2;
+}
